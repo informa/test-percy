@@ -1,0 +1,24 @@
+{
+  "name": "test-percy",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/informa/test-percy"
+  },
+  "author": "JP",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/informa/test-percy",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-actions": "^5.1.10",
+    "@storybook/addon-links": "^5.1.10",
+    "@storybook/addons": "^5.1.10",
+    "@storybook/react": "^5.1.10",
+    "babel-loader": "^8.0.6"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
